@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Катерина Саламатина](https://up.htmlacademy.ru/adaptive/20/user/680139).
-* Наставник: `Неизвестно`.
+* Наставник: `Кексобот`.
 
 ---
 
