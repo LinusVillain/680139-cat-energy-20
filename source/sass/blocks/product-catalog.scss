@@ -1,0 +1,39 @@
+@media (min-width: $tablet-width) {
+  .product-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product-catalog {
+    padding-right: 110px;
+    padding-left: 110px;
+  }
+}
+
+.product-catalog__title {
+  margin-top: 31px;
+  margin-right: auto;
+  margin-bottom: 35px;
+  margin-left: 22px;
+  font-family: $font-oswald;
+  font-size: 36px;
+  font-weight: 400;
+  color: $black;
+  line-height: 60px;
+}
+
+@media (min-width: $tablet-width) {
+  .product-catalog__title {
+    width: 100%;
+    margin-top: 72px;
+    margin-right: auto;
+    margin-bottom: 156px;
+    margin-left: 0;
+    font-size: 60px;
+  }
+}

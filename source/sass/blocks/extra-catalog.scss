@@ -1,0 +1,44 @@
+.extra-catalog {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .extra-catalog {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .extra-catalog {
+    display: inline-block;
+    margin-right: 80px;
+    padding-right: 0;
+    padding-left: 110px;
+  }
+}
+
+.extra-catalog__title {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: $font-oswald;
+  color: $black;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  border-bottom: 1px solid #ededed;
+}
+
+@media (min-width: $tablet-width) {
+  .extra-catalog__title {
+    border-bottom: none;
+  }
+}
+
+.extra-catalog__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

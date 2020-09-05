@@ -1,0 +1,49 @@
+@media (min-width: $desktop-width) {
+  .table-price {
+    width: 285px;
+  }
+}
+
+.table-price__row td {
+  font-family: $font-arial;
+  color: $dark-grey;
+  font-size: 14px;
+  line-height: 14px;
+
+  &:first-child {
+    width: 140px;
+  }
+
+  &:nth-child(2) {
+    width: 140px;
+    text-align: right;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .table-price__row td {
+    &:first-child {
+      width: auto;
+      text-align: right;
+    }
+
+    &:nth-child(2) {
+      width: 94px;
+      text-align: right;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .table-price__row td {
+    &:first-child {
+      width: auto;
+      text-align: left;
+    }
+
+    &:nth-child(2) {
+      width: 45px;
+      text-align: left;
+    }
+  }
+}

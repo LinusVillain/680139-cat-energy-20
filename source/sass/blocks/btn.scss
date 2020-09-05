@@ -1,0 +1,42 @@
+.btn {
+  font-family: $font-oswald;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn--green {
+  font-family: $font-oswald;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $white;
+  text-align: center;
+  background-color: $light-green;
+
+  &:hover {
+    background-color: $dark-green;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: $dark-green;
+  }
+}
+
+.btn--grey {
+  font-family: $font-oswald;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $dark-grey;
+  text-align: center;
+  background-color: $light-grey;
+
+  &:hover {
+    background-color: #ebebeb;
+  }
+
+  &:active {
+    color: rgba(68, 68, 68, 0.3);
+    background-color: #ebebeb;
+  }
+}

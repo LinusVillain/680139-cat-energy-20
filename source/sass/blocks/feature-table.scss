@@ -1,0 +1,35 @@
+.feature-table__row {
+  border-collapse: collapse;
+}
+
+.feature-table__row td {
+  font-family: $font-arial;
+  color: $dark-grey;
+  font-size: 12px;
+  line-height: 16px;
+
+  &:first-child {
+    width: 70px;
+  }
+
+  &:nth-child(2) {
+    width: 71px;
+    text-align: right;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .feature-table__row td {
+    font-size: 16px;
+    line-height: 30px;
+    border-bottom: 1px solid #cdcdcd;
+
+    &:first-child {
+      width: 50%;
+    }
+
+    &:nth-child(2) {
+      width: 50%;
+    }
+  }
+}

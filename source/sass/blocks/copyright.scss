@@ -1,0 +1,22 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $font-arial;
+  font-size: 16px;
+  color: $dark-grey;
+  line-height: 16px;
+}
+
+.copyright__link {
+  fill: $grey;
+
+  &:hover {
+    fill: $light-green;
+  }
+
+  &:active {
+    fill: $light-green;
+    opacity: 0.3;
+  }
+}
