@@ -1,0 +1,19 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.social__link {
+  fill: $grey;
+
+  &:hover {
+    fill: $light-green;
+  }
+
+  &:active {
+    fill: $light-green;
+    opacity: 0.3;
+  }
+}

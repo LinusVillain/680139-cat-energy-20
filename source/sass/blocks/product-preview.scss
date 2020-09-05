@@ -1,0 +1,121 @@
+.product-preview {
+  padding-top: 25px;
+  padding-bottom: 22px;
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+  .product-preview {
+    min-height: 870px;
+    padding-top: 62px;
+    padding-bottom: 0;
+    background-image: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product-preview {
+    min-height: 585px;
+    padding-top: 115px;
+  }
+}
+
+.product-preview__wrapper {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .product-preview__wrapper {
+    margin-left: 118px;
+    width: 415px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product-preview__wrapper {
+    margin-left: 195px;
+  }
+}
+
+.product-preview__title {
+  margin: 0;
+  margin-bottom: 26px;
+  font-family: $font-oswald;
+  font-size: 36px;
+  color: $white;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .product-preview__title {
+    margin-bottom: 42px;
+    font-size: 60px;
+    color: $black;
+    line-height: 60px;
+    text-align: left;
+  }
+}
+
+.product-preview__text {
+  margin-bottom: 30px;
+  font-family: $font-oswald;
+  font-size: 14px;
+  color: $white;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .product-preview__text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: $black;
+    line-height: 20px;
+    text-align: left;
+  }
+}
+
+.product-preview__food-pic {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.product-preview__btn-program {
+  display: block;
+  width: auto;
+  margin-top: 4px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .product-preview__btn-program {
+    position: absolute;
+    margin: 0;
+    top: 375px;
+    left: 119px;
+    width: 245px;
+    font-size: 20px;
+    line-height: 52px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product-preview__btn-program {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 110px;
+  }
+}

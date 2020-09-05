@@ -1,0 +1,147 @@
+.advantages {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages {
+    padding-right: 110px;
+    padding-left: 110px;
+  }
+}
+
+.advantages__title {
+  font-family: $font-oswald;
+  font-size: 36px;
+  color: $black;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages__list {
+    flex-wrap: no-wrap;
+  }
+}
+
+.advantages__item {
+  min-height: 60px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  font-family: $font-arial;
+  font-size: 14px;
+  color: $dark-grey;
+  line-height: 18px;
+
+  &::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    margin-left: -80px;
+    background-color: $light-green;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--healthy::before {
+    background-image: url("../img/advantage-leaf@1x.png");
+  }
+
+  &--powder::before {
+    background-image: url("../img/advantage-powder@1x.png");
+  }
+
+  &--food-amount::before {
+    background-image: url("../img/advantage-dining@1x.png");
+  }
+
+  &--month-later::before {
+    background-image: url("../img/advantage-clock@1x.png");
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__item {
+    width: 35%;
+    min-height: 230px;
+    margin-top: 117px;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 24px;
+
+    &:nth-child(2n+1) {
+      margin-right: 130px;
+    }
+
+    &:nth-child(2n) {
+      margin-right: 81px;
+    }
+
+    &:first-child,
+    &:nth-child(2) {
+      margin-bottom: 89px;
+    }
+
+    &:nth-child(3),
+    &:nth-child(4) {
+      margin-bottom: 55px;
+    }
+
+    &::before {
+      width: 80px;
+      height: 80px;
+      margin-top: -117px;
+      margin-left: 0;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages__item {
+    width: 16.5%;
+    margin-right: 90px;
+    margin-bottom: 90px;
+
+    &:nth-child(2n+1),
+    &:nth-child(2n) {
+      margin-right: 90px;
+    }
+
+    &:first-child,
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4) {
+      margin-bottom: 90px;
+    }
+  }
+}
