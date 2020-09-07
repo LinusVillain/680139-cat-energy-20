@@ -6,9 +6,9 @@
   padding-right: 20px;
   padding-left: 20px;
   min-height: 210px;
-  border-top: 1px solid #ededed;
-  border-right: 1px solid #ededed;
-  border-left: 1px solid #ededed;
+  border-top: 1px solid $border-grey;
+  border-right: 1px solid $border-grey;
+  border-left: 1px solid $border-grey;
 }
 
 @media (min-width: $tablet-width) {

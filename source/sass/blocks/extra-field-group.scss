@@ -16,7 +16,7 @@
   color: $black;
   font-size: 24px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 26px;
 }
 
 @media (min-width: $tablet-width) {
@@ -67,7 +67,7 @@
   padding-right: 20px;
   padding-left: 20px;
   font-family: $font-oswald;
-  color: $grey-black;
+  color: $black;
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
@@ -84,7 +84,7 @@
     margin: 0;
     padding: 0;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 30px;
   }
 }
 

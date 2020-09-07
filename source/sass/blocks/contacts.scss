@@ -55,7 +55,7 @@
   font-family: $font-oswald;
   font-size: 16px;
   font-weight: 400;
-  color: $black;
+  color: $light-black;
   line-height: 20px;
   text-transform: uppercase;
 }
@@ -63,6 +63,7 @@
 @media (min-width: $tablet-width) {
   .contacts__invite {
     margin-right: 330px;
+    font-size: 20px;
   }
 }
 
@@ -82,6 +83,7 @@
 @media (min-width: $tablet-width) {
   .contacts__detailed {
     text-align: right;
+    font-size: 16px;
   }
 }
 
