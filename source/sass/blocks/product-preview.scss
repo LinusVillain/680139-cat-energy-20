@@ -1,13 +1,16 @@
 .product-preview {
+  min-height: 455px;
   padding-top: 25px;
   padding-bottom: 22px;
-  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-image: url("../img/index-background-mobile@1x.jpg"),
+                    linear-gradient(to bottom, $dark-green 61%, transparent 61%);
   background-repeat: no-repeat;
+  background-position: center top;
 }
 
 @media (min-width: $tablet-width) {
   .product-preview {
-    min-height: 870px;
+    min-height: 808px;
     padding-top: 62px;
     padding-bottom: 0;
     background-image: none;
@@ -16,26 +19,52 @@
 
 @media (min-width: $desktop-width) {
   .product-preview {
+    position: relative;
     min-height: 585px;
     padding-top: 115px;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -113px;
+      left: auto;
+      width: 50%;
+      height: 694px;
+      right: 0;
+      background-color: $dark-green;
+      background-image: url(../img/index-background-desktop@1x.jpg);
+      background-position: top right;
+      background-repeat: no-repeat;
+      z-index: -2;
+    }
   }
 }
 
-.product-preview__wrapper {
+@media (min-width: $desktop-width) {
+  .product-preview__main-wrapper {
+    position: relative;
+    max-width: 1220px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.product-preview__second-wrapper {
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (min-width: $tablet-width) {
-  .product-preview__wrapper {
-    margin-left: 118px;
+  .product-preview__second-wrapper {
+    margin-left: 87px;
     width: 415px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .product-preview__wrapper {
-    margin-left: 195px;
+  .product-preview__second-wrapper {
+    margin-left: 80px;
   }
 }
 
@@ -52,7 +81,7 @@
 
 @media (min-width: $tablet-width) {
   .product-preview__title {
-    margin-bottom: 42px;
+    margin-bottom: 41px;
     font-size: 60px;
     color: $black;
     line-height: 60px;
@@ -61,6 +90,7 @@
 }
 
 .product-preview__text {
+  margin-top: 0;
   margin-bottom: 30px;
   font-family: $font-oswald;
   font-size: 14px;
@@ -87,16 +117,18 @@
   margin-left: auto;
 }
 
+@media (min-width: $desktop-width) {
+  .product-preview__food-pic {
+    position: absolute;
+    left: 650px;
+  }
+}
+
 .product-preview__btn-program {
-  display: block;
   width: auto;
-  margin-top: 4px;
-  margin-right: 20px;
-  margin-bottom: 0;
-  margin-left: 20px;
+  margin-top: 3px;
   font-size: 14px;
   line-height: 40px;
-  text-align: center;
 }
 
 @media (min-width: $tablet-width) {
@@ -116,6 +148,6 @@
     position: relative;
     top: 0;
     left: 0;
-    margin-left: 110px;
+    margin-left: 80px;
   }
 }
