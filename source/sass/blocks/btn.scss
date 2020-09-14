@@ -1,4 +1,5 @@
 .btn {
+  display: block;
   font-family: $font-oswald;
   font-weight: 400;
   text-transform: uppercase;
@@ -6,11 +7,7 @@
 }
 
 .btn--green {
-  font-family: $font-oswald;
-  font-weight: 400;
-  text-transform: uppercase;
   color: $white;
-  text-align: center;
   background-color: $light-green;
 
   &:hover {
@@ -24,19 +21,15 @@
 }
 
 .btn--grey {
-  font-family: $font-oswald;
-  font-weight: 400;
-  text-transform: uppercase;
   color: $dark-grey;
-  text-align: center;
   background-color: $light-grey;
 
   &:hover {
-    background-color: #ebebeb;
+    background-color: $border-grey;
   }
 
   &:active {
     color: rgba(68, 68, 68, 0.3);
-    background-color: #ebebeb;
+    background-color: $border-grey;
   }
 }

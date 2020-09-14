@@ -1,54 +1,59 @@
 .programs {
   margin: 0;
-  padding-top: 0;
-  padding-right: 20px;
-  padding-bottom: 0;
-  padding-left: 20px;
+  padding: 0;
   list-style: none;
 }
 
 @media (min-width: $tablet-width) {
   .programs {
-    padding-right: 30px;
-    padding-left: 30px;
+    width: 708px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media (min-width: $desktop-width) {
   .programs {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 110px;
-    padding-left: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    width: 1220px;
   }
 }
 
 .programs__item {
-  min-height: 266px;
   margin-bottom: 20px;
-  padding: 20px;
+  padding-top: 24px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   background-color: $light-grey;
+
+  &--last-item {
+    margin: 0;
+  }
 }
 
 @media (min-width: $tablet-width) {
   .programs__item {
-    min-height: 372px;
+    min-height: 268px;
     margin-bottom: 30px;
     padding: 52px;
+
+    &--last-item {
+      margin: 0;
+    }
   }
 }
 
 @media (min-width: $desktop-width) {
   .programs__item {
-    width: 39.5%;
-    margin-bottom: 0;
+    margin: 0;
   }
 }
 
 .programs__title {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin: 0;
   margin-left: 70px;
   color: $black;
   font-family: $font-oswald;
@@ -95,13 +100,73 @@
 
 @media (min-width: $tablet-width) {
   .programs__title {
+    width: 250px;
+    margin: 0;
+    margin-top: 25px;
     font-size: 36px;
     line-height: 36px;
+
+    &::before {
+      width: 200px;
+      height: 200px;
+      margin-left: 395px;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .programs__title--slim::after {
+    width: 140px;
+    height: 192px;
+    margin-left: 259px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .programs__title--pro::after {
+    width: 268px;
+    height: 113px;
+    margin-left: 153px;
+    margin-top: 44px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programs__title {
+    margin-left: 162px;
+
+    &::before {
+      width: 100px;
+      height: 100px;
+      margin-top: -30px;
+      margin-left: -162px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programs__title--slim::after {
+    width: 70px;
+    height: 97px;
+    margin-top: -33px;
+    margin-left: -311px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programs__title--pro::after {
+    width: 134px;
+    height: 57px;
+    margin-top: -10px;
+    margin-left: -387px;
   }
 }
 
 .programs__description {
-  padding-bottom: 24px;
+  margin: 0;
+  margin-top: 23px;
+  padding-bottom: 21px;
   font-family: $font-arial;
   font-size: 14px;
   color: $dark-grey;
@@ -111,12 +176,24 @@
 
 @media (min-width: $tablet-width) {
   .programs__description {
+    width: 377px;
+    padding: 0;
+    border-bottom: none;
     font-size: 16px;
     line-height: 24px;
   }
 }
 
+@media (min-width: $desktop-width) {
+  .programs__description {
+    width: auto;;
+    margin-top: 73px;
+  }
+}
+
 .programs__catalog-link {
+  display: block;
+  margin-top: 20px;
   font-family: $font-oswald;
   font-size: 16px;
   color: $black;
@@ -154,7 +231,21 @@
 
 @media (min-width: $tablet-width) {
   .programs__catalog-link {
+    margin-top: 52px;
     font-size: 20px;
     line-height: 30px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .programs__catalog-link::after {
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programs__catalog-link {
+    margin-top: 28px;
   }
 }
