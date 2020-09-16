@@ -31,7 +31,7 @@
 
 @media (min-width: $desktop-width) {
   .main-nav__wrapper {
-    padding-top: 55px;
+    padding-top: 50px;
   }
 }
 
@@ -62,7 +62,6 @@
 }
 
 .main-nav__button-menu {
-  display: none;
   width: 18px;
   height: 18px;
   margin-left: auto;
@@ -75,11 +74,7 @@
 
 @media (min-width: $tablet-width) {
   .main-nav__button-menu {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+    display: none;
   }
 }
 
@@ -97,7 +92,7 @@
 @media (min-width: $desktop-width) {
   .main-nav__list {
     width: 50%;
-    padding-top: 55px;
+    padding-top: 65px;
     padding-right: 110px;
   }
 }

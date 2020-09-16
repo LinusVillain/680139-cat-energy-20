@@ -1,0 +1,41 @@
+.js-function__no-js {
+  display: none;
+}
+
+.js-function__opened-menu {
+  display: block;
+}
+
+@media (min-width: $tablet-width) {
+  .js-function__opened-menu {
+    display: none;
+  }
+}
+
+.js-function__closed-menu {
+  display: block;
+  width: 25px;
+  height: 19px;
+  margin-left: auto;
+  padding: 0;
+  background-image: url("../img/icon-mobile-menu.svg");
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: $tablet-width) {
+  .js-function__closed-menu {
+    display: none;
+  }
+}
+
+.js-function__closed-items {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .js-function__closed-items {
+    display: flex;
+  }
+}

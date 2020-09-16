@@ -31,18 +31,12 @@
   padding-left: 76px;
   border-bottom: 1px solid #d9d9d9;
 
-  & svg {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   &:hover {
-    fill-opacity: 0.8;
+    opacity: 0.8;
   }
 
   &:active {
-    fill-opacity: 0.6;
+    opacity: 0.6;
   }
 }
 

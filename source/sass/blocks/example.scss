@@ -240,7 +240,7 @@
 
 .example__spent-money {
   margin-top: 18px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-family: $font-oswald;
   color: $black;
   font-size: 14px;
@@ -307,6 +307,14 @@
   }
 }
 
+@media (min-width: $desktop-width) {
+  .example__before {
+    width: 51.5%;
+    top: -50px;
+    left: 0;
+  }
+}
+
 .example__after {
   display: none;
 }
@@ -320,6 +328,14 @@
     top: 0;
     left: 354px;
     width: calc(100% - 47.5% - 40px);
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example__after {
+    width: 47.5%;
+    top: -50px;
+    left: 350px;
   }
 }
 
