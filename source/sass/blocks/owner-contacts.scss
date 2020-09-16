@@ -7,3 +7,9 @@
     margin-bottom: 65px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .owner-contacts {
+    margin-bottom: 68px;
+  }
+}

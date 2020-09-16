@@ -7,3 +7,9 @@
     margin-bottom: 65px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .comment {
+    margin-bottom: 67px;
+  }
+}

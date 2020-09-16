@@ -17,7 +17,7 @@
     width: 633px;
     padding-top: 26px;
     padding-right: 37px;
-    padding-bottom: 28px;
+    padding-bottom: 27px;
     padding-left: 38px;
     min-height: 84px;
     border-right: 1px solid $extra-border-grey;
@@ -28,6 +28,7 @@
 @media (min-width: $desktop-width) {
   .extra-card-product {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 895px;
     padding-top: 15px;
@@ -53,8 +54,7 @@
 
 @media (min-width: $desktop-width) {
   .extra-card-product__wrapper {
-    width: 650px;
-    margin-right: 35px;
+    width: 610px;
   }
 }
 
@@ -90,7 +90,7 @@
 
 @media (min-width: $tablet-width) {
   .extra-card-product__link-order {
-    margin-top: 27px;
+    margin-top: 25px;
   }
 }
 

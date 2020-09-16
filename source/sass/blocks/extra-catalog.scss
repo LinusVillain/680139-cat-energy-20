@@ -1,6 +1,7 @@
 .extra-catalog__title {
   display: inline-block;
   position: relative;
+  margin-top: 28px;
   margin-bottom: 34px;
   margin-left: 19px;
   padding-right: 20px;
@@ -26,8 +27,8 @@
 
 @media (min-width: $tablet-width) {
   .extra-catalog__title {
-    margin-top: 68px;
-    margin-bottom: 75px;
+    margin-top: 63px;
+    margin-bottom: 81px;
     margin-left: 30px;
     padding-right: 36px;
     padding-left: 36px;
@@ -56,11 +57,11 @@
 
 @media (min-width: $desktop-width) {
   .extra-catalog__title {
-    margin-top: 75px;
+    margin-top: 73px;
     margin-bottom: 81px;
     margin-left: 70px;
     padding-right: 40px;
-    padding-left: 35px;
+    padding-left: 38px;
 
     &::after {
       width: calc(100vw - 105px);
