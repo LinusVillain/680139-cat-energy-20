@@ -104,7 +104,7 @@
   }
 }
 
-.contacts__on-map {
+.contacts__on-map img {
   display: block;
   margin-top: 76px;
   margin-right: auto;
@@ -112,13 +112,13 @@
 }
 
 @media (min-width: $tablet-width) {
-  .contacts__on-map {
+  .contacts__on-map img {
     margin-top: 200px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .contacts__on-map {
+  .contacts__on-map img {
     margin-top: 0;
   }
 }

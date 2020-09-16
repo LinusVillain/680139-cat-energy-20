@@ -276,8 +276,9 @@
 
 @media (min-width: $tablet-width) {
   .example__photo-wrapper {
+    display: flex;
     position: relative;
-    width: 630px;
+    width: 708px;
     height: 518px;
   }
 }
@@ -297,11 +298,11 @@
 @media (min-width: $tablet-width) {
   .example__before {
     position: absolute;
-    width: 25%;
+    width: 47.5%;
     overflow: hidden;
     box-sizing: border-box;
     top: 0;
-    left: 230px;
+    left: 18px;
     z-index: 1;
   }
 }
@@ -317,7 +318,15 @@
     overflow: hidden;
     box-sizing: border-box;
     top: 0;
-    left: 260px;
+    left: 354px;
+    width: calc(100% - 47.5% - 40px);
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .example__after-img {
+    position: relative;
+    right: 101%;
   }
 }
 
