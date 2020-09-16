@@ -1,8 +1,6 @@
 .order-page__form-title {
   margin: 0;
-  margin-top: 30px;
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-top: 14px;
   font-family: $font-oswald;
   color: $black;
   font-size: 36px;
@@ -13,16 +11,12 @@
 @media (min-width: $tablet-width) {
   .order-page__form-title {
     margin-top: 63px;
-    padding-right: 32px;
-    padding-left: 32px;
     font-size: 60px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .order-page__form-title {
-    margin-top: 81px;
-    padding-right: 110px;
-    padding-left: 110px;
+    margin-top: 77px;
   }
 }

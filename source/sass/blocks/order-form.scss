@@ -1,10 +1,14 @@
 .order-form {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 31px;
 }
 
 @media (min-width: $tablet-width) {
   .order-form {
+    width: 768px;
     padding-top: 53px;
     padding-bottom: 72px;
   }
@@ -12,6 +16,8 @@
 
 @media (min-width: $desktop-width) {
   .order-form {
+    width: 1440px;
+    padding-top: 56px;
     padding-bottom: 82px;
   }
 }
@@ -19,9 +25,7 @@
 .order-form__description {
   margin: 0;
   margin-right: 54px;
-  margin-bottom: 39px;
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-bottom: 40px;
   font-family: $font-oswald;
   color: $black;
   font-size: 14px;
@@ -33,9 +37,8 @@
 @media (min-width: $tablet-width) {
   .order-form__description {
     margin-right: 306px;
-    margin-bottom: 69px;
-    padding-right: 70px;
-    padding-left: 70px;
+    margin-bottom: 66px;
+    margin-left: 40px;
     font-size: 20px;
     line-height: 30px;
   }
@@ -43,15 +46,14 @@
 
 @media (min-width: $desktop-width) {
   .order-form__description {
-    margin-right: 898px;
-    padding-right: 110px;
-    padding-left: 110px;
+    margin-right: 850px;
+    margin-left: 0;
   }
 }
 
 .order-form__submit {
   display: block;
-  margin-top: 22px;
+  margin-top: 39px;
   width: 280px;
   margin-right: auto;
   margin-left: auto;
@@ -63,17 +65,17 @@
 @media (min-width: $tablet-width) {
   .order-form__submit {
     display: inline-block;
-    margin-top: 54px;
+    margin-top: 59px;
     margin-right: 61px;
-    margin-left: 70px;
+    margin-left: 71px;
     font-size: 20px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .order-form__submit {
-    margin-top: 61px;
-    margin-right: 82px;
+    margin-top: 66px;
+    margin-right: 81px;
     margin-left: 110px;
     width: 568px;
     line-height: 52px;
@@ -82,7 +84,7 @@
 
 .order-form__note {
   display: block;
-  margin-top: 23px;
+  margin-top: 21px;
   font-family: $font-arial;
   color: $black;
   font-size: 14px;
@@ -93,7 +95,7 @@
 @media (min-width: $tablet-width) {
   .order-form__note {
     display: inline-block;
-    margin-top: 54px;
+    margin-top: 59px;
     font-size: 16px;
     line-height: 40px;
     text-align: left;
@@ -102,7 +104,7 @@
 
 @media (min-width: $desktop-width) {
   .order-form__note {
-    margin-top: 61px;
+    margin-top: 66px;
     line-height: 52px;
   }
 }

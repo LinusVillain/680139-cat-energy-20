@@ -16,3 +16,10 @@
     padding-left: 110px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .container--exception {
+    padding-left: 110px;
+    padding-right: 80px;
+  }
+}

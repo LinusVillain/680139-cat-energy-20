@@ -4,7 +4,7 @@
   margin-left: auto;
   padding-top: 27px;
   padding-right: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
   padding-left: 20px;
   min-height: 156px;
   border: 1px solid #ededed;
@@ -12,34 +12,43 @@
 
 @media (min-width: $tablet-width) {
   .show-more {
-    width: 35%;
+    width: 250px;
     padding-top: 55px;
     padding-right: 38px;
     padding-bottom: 40px;
     padding-left: 38px;
-    min-height: 431px;
-    margin-bottom: 140px;
+    min-height: 336px;
+    margin: 0;
   }
 }
 
 @media (min-width: $desktop-width) {
   .show-more {
-    width: 17%;
+    width: 169px;
   }
 }
 
 .show-more svg {
   display: block;
+  width: 30px;
+  height: 30px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .show-more polygon {
-  fill: #d3d3d3;
+  fill: $extra-border-grey;
+}
+
+@media (min-width: $tablet-width) {
+  .show-more svg {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 .show-more__show-products {
-  margin-top: 26px;
+  margin-top: 22px;
   margin-bottom: 0;
   font-family: $font-oswald;
   font-size: 16px;
@@ -52,14 +61,18 @@
 
 @media (min-width: $tablet-width) {
   .show-more__show-products {
+    margin-top: 49px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 170px;
     font-size: 20px;
     line-height: 22px;
   }
 }
 
 .show-more__text-detail {
-  margin-top: 11px;
-  margin-bottom: 22px;
+  margin-top: 8px;
+  margin-bottom: 21px;
   font-family: $font-arial;
   color: $dark-grey;
   font-size: 12px;
@@ -69,6 +82,11 @@
 
 @media (min-width: $tablet-width) {
   .show-more__text-detail {
+    width: 170px;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-bottom: 87px;
+    margin-left: auto;
     font-size: 16px;
     line-height: 18px;
   }

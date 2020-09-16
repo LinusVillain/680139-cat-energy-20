@@ -1,8 +1,18 @@
+.cat-data {
+  margin-bottom: 26px;
+}
+
+@media (min-width: $tablet-width) {
+  .cat-data {
+    margin-bottom: 75px;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .cat-data {
     display: flex;
     justify-content: space-between;
-    margin-right: 110px;
-    margin-left: 110px;
+    margin-bottom: 69px;
+    padding-right: 110px;
   }
 }
