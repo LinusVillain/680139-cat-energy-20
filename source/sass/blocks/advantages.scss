@@ -93,18 +93,38 @@
 
   &--healthy::before {
     background-image: url("../img/advantage-leaf@1x.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/advantage-leaf@2x.png");
+      background-size: 50px auto;
+    }
   }
 
   &--powder::before {
     background-image: url("../img/advantage-powder@1x.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/advantage-powder@2x.png");
+      background-size: 50px auto;
+    }
   }
 
   &--food-amount::before {
     background-image: url("../img/advantage-dining@1x.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/advantage-dining@2x.png");
+      background-size: 50px auto;
+    }
   }
 
   &--month-later::before {
     background-image: url("../img/advantage-clock@1x.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/advantage-clock@2x.png");
+      background-size: 50px auto;
+    }
   }
 }
 

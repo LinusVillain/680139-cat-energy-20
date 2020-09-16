@@ -6,6 +6,12 @@
                     linear-gradient(to bottom, $dark-green 61%, transparent 61%);
   background-repeat: no-repeat;
   background-position: center top;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/index-background-mobile@2x.jpg"),
+    linear-gradient(to bottom, $dark-green 61%, transparent 61%);;
+    background-size: 320px auto, cover;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -33,10 +39,15 @@
       height: 694px;
       right: 0;
       background-color: $dark-green;
-      background-image: url(../img/index-background-desktop@1x.jpg);
+      background-image: url("../img/index-background-desktop@1x.jpg");
       background-position: top right;
       background-repeat: no-repeat;
       z-index: -2;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/index-background-desktop@2x.jpg");
+        background-size: 720px auto;
+      }
     }
   }
 }
