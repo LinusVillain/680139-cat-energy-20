@@ -53,17 +53,25 @@
     position: absolute;
     width: auto;
     height: auto;
-    left: 60px;
-    top: -200px;
+    left: -40px;
+    top: -210px;
+
+    &--big {
+      top:-250px;
+    }
   }
 }
 
-@media (min-width: $desktop-width) {
-  .card-product__image-description-link {
-    left: 15px;
-    top: -200px;
-  }
-}
+// @media (min-width: $desktop-width) {
+//   .card-product__image-description-link {
+//     left: -35px;
+//     top: -210px;
+
+//     &--big {
+//       top:-250px;
+//     }
+//   }
+// }
 
 .card-product__title {
   width: 74px;

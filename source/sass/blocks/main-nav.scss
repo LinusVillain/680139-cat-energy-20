@@ -2,7 +2,7 @@
   .main-nav {
     display: flex;
     align-items: center;
-    padding-top: 34px;
+    padding-top: 30px;
     padding-right: 30px;
     min-height: 52px;
   }
@@ -31,7 +31,7 @@
 
 @media (min-width: $desktop-width) {
   .main-nav__wrapper {
-    padding-top: 65px;
+    padding-top: 55px;
   }
 }
 
@@ -44,6 +44,20 @@
 
   &:active {
     fill-opacity: 0.6;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__logo img {
+    width: 174px;
+    height: 52px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__logo img {
+    width: 202px;
+    height: 60px;
   }
 }
 
@@ -83,7 +97,7 @@
 @media (min-width: $desktop-width) {
   .main-nav__list {
     width: 50%;
-    padding-top: 65px;
+    padding-top: 55px;
     padding-right: 110px;
   }
 }
