@@ -1,8 +1,9 @@
-.feature-table__row {
+.feature-table {
   border-collapse: collapse;
 }
 
 .feature-table__row td {
+  padding: 0;
   font-family: $font-arial;
   color: $dark-grey;
   font-size: 12px;

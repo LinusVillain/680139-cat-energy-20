@@ -33,3 +33,9 @@
     background-color: $border-grey;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .btn--inline {
+    display: inline-block;
+  }
+}

@@ -1,22 +1,27 @@
 .extra-card-product {
-  max-width: 280px;
+  width: 280px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 14px;
+  padding-top: 13px;
   padding-bottom: 17px;
-  min-height: 97px;
+  min-height: 98px;
   border-bottom: 1px solid $extra-border-grey;
+
+  &:first-child {
+    border-top: 1px solid $extra-border-grey;
+  }
 }
 
 @media (min-width: $tablet-width) {
   .extra-card-product {
-    max-width: 633px;
-    padding-top: 28px;
+    width: 633px;
+    padding-top: 26px;
     padding-right: 37px;
     padding-bottom: 28px;
     padding-left: 38px;
-    min-height: 82px;
-    border: 1px solid $extra-border-grey;
+    min-height: 84px;
+    border-right: 1px solid $extra-border-grey;
+    border-left: 1px solid $extra-border-grey;
   }
 }
 
@@ -24,7 +29,7 @@
   .extra-card-product {
     display: flex;
     align-items: center;
-    max-width: 895px;
+    width: 895px;
     padding-top: 15px;
     padding-right: 0;
     padding-bottom: 16px;
@@ -55,7 +60,7 @@
 
 .extra-card-product__title {
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   font-family: $font-oswald;
   color: $grey-black;
   font-size: 16px;
@@ -78,9 +83,15 @@
 
 .extra-card-product__link-order {
   display: block;
-  margin-top: 14px;
+  margin-top: 15px;
   font-size: 16px;
   line-height: 40px;
+}
+
+@media (min-width: $tablet-width) {
+  .extra-card-product__link-order {
+    margin-top: 27px;
+  }
 }
 
 @media (min-width: $desktop-width) {

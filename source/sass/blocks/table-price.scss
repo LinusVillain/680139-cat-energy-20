@@ -1,3 +1,8 @@
+.table-price {
+  border-collapse: collapse;
+}
+
+
 @media (min-width: $desktop-width) {
   .table-price {
     width: 285px;
@@ -5,6 +10,7 @@
 }
 
 .table-price__row td {
+  padding: 0;
   font-family: $font-arial;
   color: $dark-grey;
   font-size: 14px;
