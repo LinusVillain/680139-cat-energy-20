@@ -61,12 +61,18 @@
 
 @media (min-width: $tablet-width) {
   .show-more__show-products {
-    margin-top: 49px;
+    margin-top: 48px;
     margin-right: auto;
     margin-left: auto;
     width: 170px;
     font-size: 20px;
     line-height: 22px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .show-more__show-products {
+    margin-top: 45px;
   }
 }
 

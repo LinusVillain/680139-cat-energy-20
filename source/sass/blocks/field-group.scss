@@ -88,6 +88,8 @@
 }
 
 .field-group__wrapper {
+  margin: 0;
+  padding: 0;
   border: none;
 }
 
@@ -98,6 +100,7 @@
 }
 
 .field-group__radio-series {
+  margin: 0;
   margin-top: 23px;
   padding-top: 26px;
   padding-right: 20px;
@@ -112,9 +115,9 @@
     margin-right: 67px;
     margin-bottom: 0;
     margin-left: 71px;
-    padding-top: 25px;
+    padding-top: 29px;
     padding-right: 28px;
-    padding-bottom: 25px;
+    padding-bottom: 29px;
     padding-left: 28px;
   }
 }
@@ -123,7 +126,7 @@
   .field-group__radio-series {
     flex-grow: 1;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 28px;
     padding-bottom: 30px;
   }
 }
@@ -153,7 +156,7 @@
 
 @media (min-width: $tablet-width) {
   .field-group__label {
-    margin-bottom: 20px;
+    margin-bottom: 23px;
     padding-right: 37px;
     padding-left: 41px;
     font-size: 20px;
@@ -245,7 +248,7 @@
   .field-group__label--owner {
 
     &:first-child {
-      margin-bottom: 20px;
+      margin-bottom: 23px;
     }
   }
 }
@@ -255,7 +258,7 @@
 
     &:first-child {
       margin-bottom: 0;
-      margin-right: 78px;
+      margin-right: 95px;
     }
   }
 }
@@ -335,12 +338,13 @@
 @media (min-width: $tablet-width) {
   .field-group__input--email {
     padding-right: 38px;
-    background-position: 514px center;
+    background-position: 520px center;
   }
 }
 
 @media (min-width: $desktop-width) {
   .field-group__input--email {
+    margin-left: 21px;
     background-position: 449px center;
   }
 }
@@ -366,12 +370,13 @@
 @media (min-width: $tablet-width) {
   .field-group__input--tel {
     padding-right: 38px;
-    background-position: 498px center;
+    background-position: 500px center;
   }
 }
 
 @media (min-width: $desktop-width) {
   .field-group__input--tel {
+    margin-left: 14px;
     background-position: 435px center;
   }
 }

@@ -38,7 +38,7 @@
   .card-product__info {
     display: block;
     position: relative;
-    margin-top: 161px;
+    margin-top: 164px;
   }
 }
 
@@ -79,12 +79,13 @@
 
 @media (min-width: $tablet-width) {
   .card-product__title {
-    width: 124px;
-    text-align: center;
+    width: 150px;
     margin-right: auto;
+    margin-bottom: 20px;
     margin-left: auto;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 20px;
+    text-align: center;
   }
 }
 
@@ -95,7 +96,13 @@
 @media (min-width: $tablet-width) {
   .card-product__table {
     width: 100%;
-    margin-bottom: 33px;
+    margin-bottom: 36px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .card-product__table {
+    margin-bottom: 34px;
   }
 }
 
