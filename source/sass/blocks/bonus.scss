@@ -8,6 +8,11 @@
                     linear-gradient(to bottom, $light-green 85%, transparent 85%);
   background-position: top center;
   background-repeat: no-repeat;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/gift-photo-mobile@2x.jpg"),
+    linear-gradient(to bottom, $light-green 85%, transparent 85%);
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -20,6 +25,11 @@
     min-height: 200px;
     background-image: url("../img/gift-photo-tablet@1x.jpg"),
                       linear-gradient(to bottom, $light-green 70%, transparent 70%);
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/gift-photo-tablet@2x.jpg"),
+      linear-gradient(to bottom, $light-green 70%, transparent 70%);
+    }
   }
 }
 
@@ -31,6 +41,10 @@
     min-height: 289px;
     background-color: $light-green;
     background-image: url("../img/gift-photo-desktop@1x.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/gift-photo-desktop@2x.jpg");
+    }
   }
 }
 
