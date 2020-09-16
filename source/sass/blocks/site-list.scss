@@ -34,6 +34,10 @@
   .site-list__item {
     font-size: 20px;
     line-height: 30px;
+
+    &:first-child {
+      margin-left: auto;
+    }
   }
 }
 
@@ -60,6 +64,12 @@
     &--active {
       border-bottom: 2px solid $light-green;
     }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list__link-to-page {
+    padding-bottom: 5px;
   }
 }
 

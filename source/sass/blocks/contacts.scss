@@ -35,7 +35,7 @@
     margin-left: 110px;
     padding-right: 90px;
     padding-left: 75px;
-    width: 405px;
+    width: 410px;
     min-height: 88px;
 
     &--grey-back {
@@ -68,6 +68,7 @@
 @media (min-width: $desktop-width) {
   .contacts__invite {
     margin: 0;
+    margin-bottom: 10px;
   }
 }
 
@@ -90,7 +91,7 @@
 
     span {
       display: block;
-      margin-top: 10px;
+      margin-top: 20px;
     }
   }
 }
@@ -98,6 +99,8 @@
 @media (min-width: $desktop-width) {
   .contacts__detailed {
     margin-right: 0;
+    margin-bottom: 10px;
+    text-align: left;
   }
 }
 

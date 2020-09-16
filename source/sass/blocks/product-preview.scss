@@ -11,7 +11,7 @@
 @media (min-width: $tablet-width) {
   .product-preview {
     min-height: 808px;
-    padding-top: 62px;
+    padding-top: 54px;
     padding-bottom: 0;
     background-image: none;
   }
@@ -20,7 +20,7 @@
 @media (min-width: $desktop-width) {
   .product-preview {
     position: relative;
-    min-height: 585px;
+    min-height: 550px;
     padding-top: 115px;
 
     &::after {
@@ -111,6 +111,12 @@
   }
 }
 
+@media (min-width: $desktop-width) {
+  .product-preview__text {
+    margin-bottom: 52px;
+  }
+}
+
 .product-preview__food-pic {
   display: block;
   margin-right: auto;
@@ -135,7 +141,7 @@
   .product-preview__btn-program {
     position: absolute;
     margin: 0;
-    top: 375px;
+    top: 369px;
     left: 119px;
     width: 245px;
     font-size: 20px;
